@@ -1,0 +1,129 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8" />
+            <title> Sitio Web UMG </title>
+        </head>
+        <body bgcolor="LightBlue">
+            
+            <h1 style="text-align: center">Base De Datos</h1>
+            <div style="text-align: center">
+                <img width="250px" alt="Logo"src="https://rseumg2015.weebly.com/uploads/5/4/0/7/54073327/1131100.png?286" /> 
+            </div><br>
+            <h1>Lenguaje de SQL</h1>
+            <p>SQL (Structured Query Language) es un lenguaje especializado que permite interactuar con bases de datos. Sus acciones de lenguaje pueden clasificarse en función de su propósito:</p> 
+            <ol>
+                <li> Acción Representativa (Informativa) → Se usa para consultar información de la base de datos.</li>
+                <li>Acción Expresiva → Expresa estados o cambios dentro de la base de datos. </li>
+                <li> Acción Apelativa (Conativa) → Indica comandos que deben ejecutarse.</li>
+                <li>Acción Fática → Verifica la conexión con la base de datos. </li>
+                
+            </ol>
+            <h1>Funciones del Lenguaje SQL </h1>
+            <p>La función principal del lenguaje SQL es referencial o informativa, ya que su objetivo es gestionar datos en bases de datos relacionales. Sin embargo, dependiendo del contexto, también cumple funciones como:</p>
+            <ul>
+                <li>Control y gestión de datos → Permite definir, modificar, consultar y administrar datos.</li>
+                <li>Control de accesos y permisos → Gestiona usuarios y privilegios dentro de la base de datos.</li>
+                <li>Control de transacciones → Garantiza la integridad y consistencia de los datos.</li>
+                
+            </ul>
+            <h1> Comandos y Ejemplos de SQL</h1>
+            <p>SQL se divide en cinco categorías principales de comandos: </p>
+            <ol>
+                <li> <strong>CREATE:</strong> Crea bases de datos, tablas, índices  o vistas.</li>
+                <li> <strong>ALTER:</strong> Modifica las estructuras de una tabla, base de datos o índices.</li>
+                <li><strong>DROP:</strong>  Elimina una tabla, base de datos o índices.</li>
+            </ol>
+            <h2>Ejemplos</h2>
+            <ul>
+                <li>SELECT * FROM empleados;</li>
+                <li>SELECT nombre, edad FROM empleados WHERE edad > 30;</li>
+            </ul>
+            <h1>Lenguaje DDl</h1>
+            <p>El lenguaje de definición de datos (DDL) es un conjunto de instrucciones que permite crear, modificar y eliminar objetos de una base de datos.</p>
+            <p>Qué objetos se pueden crear con DDL</p>
+            <p>Tablas, Esquemas, Vistas, Secuencias, Catálogos, Índices, Variables, Máscaras, Permisos, Alias.</p>
+            <div style="text-align: center">
+                <img width="250px" alt="DDL"src="https://basedat0s.wordpress.com/wp-content/uploads/2016/05/ddlsentencias.png" /> 
+            </div><br>
+            <H1>Funmciones del DDL</H1>
+            <p>Permite eliminar, editar y añadir objetos de base de datos. Algunas de las sentencias DDL más comunes que se ejecutan incluyen CREATE , DROP , COMMENT , ALTER y otras. Los comandos DDL suelen ejecutarse en un navegador SQL o un procedimiento almacenado.Funciones del DDL </p>
+            <ul>
+                <li>Crear tablas, secuencias, ubicaciones, alias, esquemas e índices</li>
+                <li>Modificar tablas existentes</li>
+                <li>Eliminar objetos que ya no se necesitan</li>
+                <li>Configurar el marco o estructura de una base de datos</li>
+            </ul>
+            <h1> Sus Comanndos y Ejemplos</h1>
+            <p>Se pueden ejecutar en un explorador SQL o un procedimiento almacenado</p>
+            <p> Ejemplos de comandos DDL </p>
+            <ul>
+                <li>CREATE SCHEMA para crear un esquema</li>
+                <li>CREATE TABLE para crear una tabla</li>
+                <li>DECLARE GLOBAL TEMPORARY TABLE para crear una tabla temporal</li>
+                <li>TRUNCATE TABLE para eliminar entradas de datos de una tabla</li>
+
+            </ul>
+            <h1> Lenguaje DML</h1>
+            <h2>Accuiones en el Lenguaje DML</h2>
+            <p>El lenguaje DML en SQL permite la manipulación de los datos dentro de las tablas de una base de datos. Sus acciones de lenguaje incluyen:</p>
+            <H1>Funciones y Ejemplos</H1>
+            <ul>
+                <li> •	Gestión de datos → Permite insertar, modificar y eliminar información en la base de datos.</li>
+                <li> •	Recuperación de información → Facilita la consulta de datos a través de SELECT.</li>
+                <li> •	Interacción con los usuarios → Los datos pueden actualizarse dinámicamente según las necesidades.</li>
+                <li>Acción Expresiva → Inserta o modifica datos existentes en una tabla.</li>
+                <li>Acción Apelativa (Conativa) → Da órdenes que afectan los datos almacenados.</li>
+
+            </ul>
+            <p>DML se enfoca en la manipulación de los datos almacenados en las tablas y no en la estructura de la base de datos.<strong>Sus Comandos:</strong></p>
+            <p>SELECT Consultar datos en una tabla Este comando permite recuperar información de la base de datos.</p>
+            <div style="text-align: center">
+                <img width="250px" alt="DDL"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqTVxrVVMTzDnz4IhYK0OOQmjGs_bZ7lMrzg&s" /> 
+            </div><br>
+            <h1> Lenguaje DCL</h1>
+            <p>DCL (Data Contro, Lenguaje de Control de Datos) 1. Acciones del Lenguaje en DCL,DCL en SQL se usa para gestionar los permisos y el acceso a la base de datos. Sus acciones principales incluyen: 1. Acción Apelativa (Conativa): Se usa para otorgar o revocar permisos a usuarios.</p>
+            <h2> Funciones del DCL</h2>
+            <P>DCL cumple principalmente con la función apelativa, ya que permite administrar los permisos de acceso y seguridad de la base de datos.Gestión de usuarios: Controla quién puede acceder a la base de datos y qué operaciones puede realizar.Seguridad de datos: Restringe el acceso a información sensible.Auditoría y control: Permite rastrear qué usuarios tienen qué permisos.</P>
+            <H1>Su Comando</H1>
+            <p>Comando DCL se usa para otorgar o revocar privilegios en la base de datos.A. GRANT,Otorgar permisos a un usuario.Este comando asigna permisos específicos a un usuario o rol.</p>
+            <ul>
+                <li>Ejemplo: Dar permiso de lectura en una tabla a un usuario</li>
+            </ul>
+            <div style="text-align: center">
+                <img width="250px" alt="DDL"src="https://db0dce98.rocketcdn.me/es/files/2024/10/Data-Control-Language-DCL.webp"/> 
+            </div><br>
+            <h1>Lenguaje TCL</h1>
+            <p>TCL en SQL se usa para gestionar transacciones en una base de datos, asegurando que las operaciones sean ejecutadas de manera segura y consistente. Las acciones principales incluyen:1.	Acción Representativa (Informativa): Se usa para verificar el estado de una transacción.</p>
+            <h2>Su Funcion</h2>
+            <p>TCL cumple principalmente con la función metalingüística y conativa, ya que permite controlar cómo se ejecutan y confirman las transacciones en la base de datos.</p>
+            <h2>Sus Comandos</h2>
+            <p>TCL se centra en la administración de transacciones dentro de la base de datos.A. COMMIT Confirmar una transacción,Este comando guarda permanentemente los cambios realizados en la base de datos.</p>
+            <div style="text-align: center">
+                <img width="250px" alt="DDL"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgH8Moh_KlSMXQsM7w3uXsxvTTG2o4Rel2rw&s"/> 
+                
+            </div><br>
+            <h1>Oracle Data Base</h1>
+            <p>Oracle Database es un sistema de gestión de base de datos relacional (RDBMS) desarrollado por Oracle Corporation, ampliamente utilizado por empresas para gestionar y almacenar datos. Es una herramienta fundamental para almacenar, organizar y recuperar grandes cantidades de datos de forma eficiente. </p>
+
+
+            <p>Por que escogimos estos temas?</p>
+            <p>Ya que para nosotros son interesantes y debido a su uso en la curso</p>
+            <hr>
+            <h1>Temas</h1>
+            <ul>
+                <li>
+                    <a href="index.html"> Inicio</a>
+                </li>
+                <li>
+                    <a href="HistoriaDeLaComputacion.html"> Historia De La Computacion </a>
+                </li>
+                <li>
+                    <a href="BaseDeDatos.html"> Base De Datos </a>
+                </li>
+                <li>
+                    <a href="Integrantes.html"> Integantes del Grupo </a>
+                </li>
+            </ul>
+        </body>
+    </html>
